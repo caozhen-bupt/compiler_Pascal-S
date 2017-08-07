@@ -1,0 +1,49 @@
+﻿生成启动时间为 2017/4/25 0:03:08。
+     1>项目“C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\xkz2181.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失(您可以通过安装相应版本的 MSBuild 来解决该问题)，或者该生成因策略原因已被强制更改为特殊 ToolsVersion。将此项目视作具有 ToolsVersion="4.0"。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>InitializeBuildStatus:
+         正在创建“Debug\xkz2181.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"G:\编译原理\bianyi\bianyi\Parser Generator 2\Cpp\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp mylexer.cpp myparser.cpp
+         myparser.cpp
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\myparser.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mylexer.cpp
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\datastruc.h(89): warning C4005: “BEGIN”: 宏重定义
+                 c:\program files (x86)\parser generator 2\cpp\include\yyclex.h(241) : 参见“BEGIN”的前一个定义
+         main.cpp
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\myparser.h(111): warning C4005: “BEGIN”: 宏重定义
+                 c:\program files (x86)\parser generator 2\cpp\include\yyclex.h(241) : 参见“BEGIN”的前一个定义
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(520): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(812): warning C4101: “value”: 未引用的局部变量
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(811): warning C4101: “p1”: 未引用的局部变量
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(921): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(317): warning C4715: “standardTypeTrans”: 不是所有的控件路径都返回值
+     1>c:\users\桢\desktop\第1组-2014211302班\源程序清单\main.cpp(852): warning C4715: “checkArrayType”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\xkz2181.exe.embed.manifest.res" Debug\xkz2181_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\编译原理\bianyi\bianyi\Parser Generator 2\Cpp\Lib\msvc32" ylmtr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\xkz2181.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.lib" /MACHINE:X86 Debug\xkz2181.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\mylexer.obj
+         Debug\myparser.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\xkz2181.exe.embed.manifest" /manifest Debug\xkz2181.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\xkz2181.exe.embed.manifest.res" Debug\xkz2181_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\编译原理\bianyi\bianyi\Parser Generator 2\Cpp\Lib\msvc32" ylmtr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\xkz2181.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.lib" /MACHINE:X86 Debug\xkz2181.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\mylexer.obj
+         Debug\myparser.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         xkz2181.vcxproj -> C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\Debug\xkz2181.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\xkz2181.unsuccessfulbuild”。
+         正在对“Debug\xkz2181.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\桢\Desktop\第1组-2014211302班\源程序清单\xkz2181.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.79
